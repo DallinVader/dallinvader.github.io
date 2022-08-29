@@ -4,6 +4,7 @@ body{
 }
 
 .balloon{
+    background-image: url('bimage.png');
     image-rendering: url('bimage.png');
     height: 75px;
     width: 75px;

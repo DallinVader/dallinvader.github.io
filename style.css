@@ -1,7 +1,7 @@
 body{
     background-color: wheat;
-    background-image: url('bimage.png');
-    background-size: 1200px;
+    background-image: url('StarWars.jpg');
+    background-size: 1920px;
 }
 
 .balloon{
@@ -14,13 +14,45 @@ body{
 }
 
 @font-face {
-    font-family: 'starwars';
-    src: url(Fonts/Aurek-Besh.ttf);
+    font-family: 'allura';
+    src: url(Fonts/allura-font/Allura-oyw4.ttf);
     font-style: normal;
-    font-weight: 100;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
 }
 
-p{
-    font-family: starwars;
+h1{
+    font-family: allura;
+    font-weight: 500;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+@font-face{
+    font-family: 'alexfont';
+    src: url(Fonts/starjedi/Starjedi.ttf);
+    font-style: normal;
     font-weight: 100;
+    font-size: large;
+}
+h2{
+    font-family: alexfont;
+    font-weight: 500;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+@font-face{
+    font-family: 'starwars';
+    src: url(Fonts/galactic-basic-font/GalacticBasic-rznB.ttf);
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+h3{
+    font-family: starwars;
+    font-weight: 500;
+    font-size: large;
+    color: rgb(255, 255, 255);
 }

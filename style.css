@@ -49,7 +49,7 @@ a{
 }
 
 @font-face{
-    font-family: 'galacticstanderd';
+    font-family: 'star_wars_galacticstanderd';
     src: url(Fonts/galactic-basic-font/GalacticBasic-rznB.ttf);
     font-style: normal;
     font-weight: 100;
@@ -57,7 +57,7 @@ a{
 }
 
 h3{
-    font-family: galacticstanderd;
+    font-family: star_wars_galacticstanderd;
     font-weight: 500;
     font-size: large;
     color: rgb(255, 255, 255);

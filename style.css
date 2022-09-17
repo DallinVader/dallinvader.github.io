@@ -1,12 +1,11 @@
 body{
     background-color: wheat;
     background-image: url('bimage.png');
-    background-size: 300px;
+    background-size: 600px;
 }
 
 .balloon{
     background-image: url('bimage.png');
-    background-size: 75px;
     image-rendering: url('bimage.png');
     height: 75px;
     width: 75px;

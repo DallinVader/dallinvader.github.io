@@ -8,6 +8,7 @@ body{
     height: 75px;
     width: 75px;
     background-color: rgb(255, 0, 0);
+    color: red;
     border-radius: 60%;
     right: 50%;
 }

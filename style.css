@@ -29,21 +29,27 @@ h1{
 }
 
 @font-face{
-    font-family: 'alexfont';
+    font-family: 'starwars';
     src: url(Fonts/starjedi/Starjedi.ttf);
     font-style: normal;
     font-weight: 100;
     font-size: large;
 }
 h2{
-    font-family: alexfont;
+    font-family: starwars;
     font-weight: 500;
     font-size: large;
     color: rgb(255, 255, 255);
 }
+a{
+    font-family: starwars;
+    font-weight: 500;
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
 
 @font-face{
-    font-family: 'starwars';
+    font-family: 'galacticstanderd';
     src: url(Fonts/galactic-basic-font/GalacticBasic-rznB.ttf);
     font-style: normal;
     font-weight: 100;
@@ -51,7 +57,7 @@ h2{
 }
 
 h3{
-    font-family: starwars;
+    font-family: galacticstanderd;
     font-weight: 500;
     font-size: large;
     color: rgb(255, 255, 255);

@@ -12,3 +12,14 @@ body{
     border-radius: 60%;
     right: 50%;
 }
+
+@font-face {
+    font-family: 'starwars';
+    src: url(Fonts/Aurek-Besh.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+p{
+    font-family: starwars;
+    font-weight: 100;
+}

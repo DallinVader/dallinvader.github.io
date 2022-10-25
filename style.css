@@ -1,5 +1,4 @@
 body{
-    background-color: wheat;
     background-image: url('StarWars.jpg');
     background-size: 1920px;
 }
@@ -11,14 +10,10 @@ body{
     width: 75px;
     border-radius: 60%;
     right: 50%;
+    
 }
 
 @font-face {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-    text-align: center;
 
     font-family: 'allura';
     src: url(Fonts/allura-font/Allura-oyw4.ttf);
@@ -28,9 +23,9 @@ body{
 }
 
 h1{
-    width: 100px;
     border: 5px solid rgba(255, 0, 0, 0.425);
-    margin: 10px;
+    margin-left: 900px;
+    margin-right: 900px;
     text-align: center;
 
     font-family: allura;
@@ -47,6 +42,7 @@ h1{
     font-size: large;
 }
 h2{
+    text-align: center;
     font-family: starwars;
     font-weight: 500;
     font-size: large;
@@ -69,7 +65,7 @@ a{
 
 
 h3{
-
+    text-align: center;
     font-family: star_wars_galacticstanderd;
     font-weight: 500;
     font-size: large;

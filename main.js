@@ -12,6 +12,15 @@ let gamelength = 3000
 timer = false
 var CountDownButton = document.getElementById("countdown")
 
+function Age_Slider(){
+
+    var AgeText = document.getElementById("AgeText")
+    var age = document.getElementById("AgeSLider")
+
+
+    AgeText.innerText = age.value
+
+}
 
 function inflate(){
     if(timer == true){

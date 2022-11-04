@@ -58,14 +58,21 @@
     </div>
 
     <div>
-        <form action="StartForm">
-            <button name="SendForm"><a>Send Form</a></button>
-            <input type="text" name="name" placeholder="Name">
-            <input type="text" name="Email" placeholder="Email">
-            <input type="radio" name="M/F" value="M">Male
-            <input type="radio" name="M/F" value="F">Female
+        <form action="https://formsubmit.co/dallin.whitaker@oneidaihla.org" method="POST">
+            Name :
+            <input type="text" name="name" placeholder="Fred" required>
+
+
+            <p>
+                Email :
+                <input type="email" name="Email" placeholder="Fred@gmail.com" required>
+            </p>
+            <p>
+                <input type="radio" name="M/F" value="M">Male
+                <input type="radio" name="M/F" value="F">Female
+            </p>
             <p>Favorite Color 
-                <select name="Color" id="">
+                <select name="Color" required>
                 <option>Green</option>
                 <option>Green</option>
                 <option>Green</option>
@@ -77,7 +84,10 @@
                 <option>Green</option>
                 </select>
             </p>
+            <textarea name="Message"></textarea>
             <p><input type="range" min="0" max="200" oninput="Age_Slider()" id="AgeSLider" value="15"> Age <a id="AgeText">15</a></p>
+            <input type="reset">
+            <input type="submit">
         </form>
     </div>
 </body>

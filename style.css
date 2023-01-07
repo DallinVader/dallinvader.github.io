@@ -10,7 +10,7 @@ table, th, td {
 
 body{
     background-image: url('StarWars.jpg');
-    background-size: 1920px;
+    background-size: 100%;
 }
 
 .balloon{
